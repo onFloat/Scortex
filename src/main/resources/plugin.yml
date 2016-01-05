@@ -1,0 +1,9 @@
+name: Scortex
+version: ${project.version}
+main: me.onfloat.Scortex.Basic
+description: ScortexMC's Custom Plugin
+softdepend: [Vault]
+commands:
+    info:
+        description: To view the server info
+        permission: smc.info
