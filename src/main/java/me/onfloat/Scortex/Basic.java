@@ -62,6 +62,7 @@ public class Basic extends JavaPlugin implements Listener {
         return true;
     }
 
+    @SuppressWarnings("unused")
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event){
         String player = event.getEntity().getName();
